@@ -1,0 +1,6 @@
+C:\@projects\Manatee\Manatee\bin\Debug\Manatee.exe.config
+C:\@projects\Manatee\Manatee\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\@projects\Manatee\Manatee\bin\Debug\Manatee.exe
+C:\@projects\Manatee\Manatee\bin\Debug\Manatee.pdb
+C:\@projects\Manatee\Manatee\obj\x86\Debug\Manatee.exe
+C:\@projects\Manatee\Manatee\obj\x86\Debug\Manatee.pdb
