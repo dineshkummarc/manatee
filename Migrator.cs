@@ -402,7 +402,7 @@ REFERENCES {0} ([{2}]);";
                 return string.Format("DROP INDEX {0}.{1}", migration.up.add_index.table_name, CreateIndexName(migration.up.add_index));
             } else if (migration.up.foreign_key != null) {
                 // DROP FK
-                return string.Format("ALTER TABLE {0} DROP CONSTRAINT [FK_{0}_{1}]", migration.up.foreign_key.from_table, migration.up.foreign_key.to_table);
+                return string.Format("ALTER TABLE {1} DROP CONSTRAINT [FK_{1}_{0}]", migration.up.foreign_key.from_table, migration.up.foreign_key.to_table);
             }
             return "";
         }
